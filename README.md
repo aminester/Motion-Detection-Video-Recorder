@@ -44,8 +44,7 @@ To visualize the script's tracking frame, uncomment the following code in the sc
       for (x, y, width, height) in faces:
         cv2.rectangle(frame, (x, y), (x + width, y + height), (255, 0, 0), 3)
         
-        
-![LeBron_James_-_51959723161_(cropped)](https://user-images.githubusercontent.com/122713100/217488507-f5ea4fdb-5483-4690-a6a9-4f44138742e1.jpg)
+![fotor_2023-2-8_4_22_43](https://user-images.githubusercontent.com/122713100/217488731-f4b03961-8bb7-45f0-af8a-8a3518a9b963.png)
 
 # Built With:
 
