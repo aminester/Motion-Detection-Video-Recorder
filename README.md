@@ -36,6 +36,12 @@ You can adjust the following parameters in the script to change its behavior:
 
   - fourcc: The FourCC code used for video compression.
 
+To visualize the script's tracking frame, uncomment the following code in the script:
+
+  
+      for (x, y, width, height) in faces:
+        cv2.rectangle(frame, (x, y), (x + width, y + height), (255, 0, 0), 3)
+
 # Built With:
 
 OpenCV - An open-source computer vision and machine learning software library.
