@@ -15,15 +15,17 @@ You will need to install the following libraries:
   - Numpy
 
 You can install these libraries using the following command:
-
-- pip install opencv-python numpy
+```
+ pip install opencv-python numpy
+```
 
 # Usage
 
 Run the script using the following command:
 
-  - python motion_detection.py
-
+```
+  python motion_detection.py
+```
 The script will start capturing video from the default camera. If motion is detected, a video file will be created and recording will start. The video recording will stop when motion is no longer detected.
 
 # Configuration
